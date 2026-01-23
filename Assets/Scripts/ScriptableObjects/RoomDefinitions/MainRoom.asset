@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RoomDefinition
   roomId: Main Room
   prefab: {fileID: 1645709326021762109, guid: 5c04255584241d34ba882ea6aab5b5c0, type: 3}
-  size: {x: 0, y: 0}
+  size: {x: 1, y: 1}
   offset: {x: 0, y: 0}
-  allowedRotation: 1
-  category: 0
-  placementRules: []
-  InteractionPoints: []
+  allowedRotation: 0
+  category: 1
+  placementRules:
+  - {fileID: 11400000, guid: 720f9330974990841875fa120ef57ec8, type: 2}
+  interactionPoints: []
+  allowedNeighbors: 04000000010000000200000003000000

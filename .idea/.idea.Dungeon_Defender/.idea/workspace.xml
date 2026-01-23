@@ -6,11 +6,49 @@
   <component name="ChangeListManager">
     <list default="true" id="e8016db6-74d3-4457-9ee4-4704719fc252" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/Bits/KayKit - Resource Bits (for Unity)/Prefabs/Stone_Bricks_Stack_Large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/Bits/KayKit - Resource Bits (for Unity)/Prefabs/Stone_Bricks_Stack_Large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/Bits/KayKit - Resource Bits (for Unity)/Prefabs/Stone_Bricks_Stack_Small.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/Bits/KayKit - Resource Bits (for Unity)/Prefabs/Stone_Bricks_Stack_Small.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bookcase_double_decoratedA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bookcase_double_decoratedA.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bookcase_single_decoratedB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bookcase_single_decoratedB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_small.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_small.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_small_decorated.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/box_small_decorated.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bucket.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bucket.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bucket_pickaxes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/bucket_pickaxes.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/column.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/column.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/crate_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/crate_large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_dirt_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_dirt_large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/pickaxe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/pickaxe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_decorated_B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_decorated_B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall_arched.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall_arched.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall_doorway.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/wall_doorway.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rooms_Parts/Core.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Rooms_Parts/Core.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/BuildPreview.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/BuildPreview.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/InteractionPointDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/InteractionPointDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/PreviewUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/PreviewUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/RoomFootprintUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSystem/RoomFootprintUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/RoomCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/RoomCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/BuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/BuildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/BuildPreviewVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/BuildPreviewVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MainRoom.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MainRoom.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlacementRules/QuarryAdjacencyRule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlacementRules/QuarryAdjacencyRule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +65,29 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSystem/BuildPreview.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSystem/PreviewUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSystem/RoomTileOverride.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraRigController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/BuildState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/DoorDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/InteractionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/ResourceType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/BuildController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/CoreBobbing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInteractionDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Doors/DoorDirectionTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/RoomBounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/RoomEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/RoomInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlacementRules/MustConnectToRoomRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlacementRules/NoBlockRoomsRule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlacementRules/NoOverlapRule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/CorridorRoomDefinition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -115,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769038788060</updated>
       <workItem from="1769038791674" duration="37000" />
-      <workItem from="1769083271271" duration="8744000" />
+      <workItem from="1769083271271" duration="21441000" />
     </task>
     <servers />
   </component>

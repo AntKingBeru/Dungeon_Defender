@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class BuildPreview
 {
@@ -24,6 +24,21 @@ public class BuildPreview
 
         Rotation = (Rotation + direction * 90) % 360;
         if (Rotation < 0) Rotation += 360;
+    }
+
+    public void AutoRotateFromDirection(Vector2Int direction)
+    {
+        if (Room.category != RoomCategory.Corridor)
+            return;
+
+        if (direction.y != 0)
+        {
+            Rotation = 0;
+        }
+        else if (direction.x != 0)
+        {
+            Rotation = 90;
+        }
     }
 
     public IEnumerable<GridPosition> GetOccupiedTiles()

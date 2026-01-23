@@ -10,7 +10,10 @@ public class QuarryAdjacency : PlacementRule
             foreach (var neighbor in grid.GetNeighbors(tile))
             {
                 var room = grid.GetRoomAt(neighbor);
-                if (room != null && room.Definition.category == RoomCategory.Quarry) return true;
+                
+                if (room == null) continue;
+                
+                if (room.Definition.category is RoomCategory.Quarry or RoomCategory.Main) return true;
             }
         }
 

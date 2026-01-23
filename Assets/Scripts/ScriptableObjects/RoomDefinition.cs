@@ -22,5 +22,8 @@ public class RoomDefinition : ScriptableObject
     public List<PlacementRule> placementRules;
     
     [Header("Interaction Points")]
-    public List<InteractionPointDefinition> InteractionPoints;
+    public List<InteractionPointDefinition> interactionPoints;
+    
+    [Header("Neighbors")]
+    public List<RoomCategory> allowedNeighbors;
 }

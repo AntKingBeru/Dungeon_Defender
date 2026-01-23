@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class BuildPreviewVisual : MonoBehaviour
 {
@@ -31,10 +30,7 @@ public class BuildPreviewVisual : MonoBehaviour
 
         foreach (var render in _renderers)
         {
-            var materials = new Material[render.materials.Length];
-            for (var i = 0; i < materials.Length; i++) materials[i] = target;
-            
-            render.materials = materials;
+            render.sharedMaterial = target;
         }
     }
 }

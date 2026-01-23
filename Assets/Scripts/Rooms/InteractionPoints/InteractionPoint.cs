@@ -1,14 +1,16 @@
 using UnityEngine;
 
-public class InteractionPoint : MonoBehaviour
+public abstract class InteractionPoint : MonoBehaviour
 {
     [SerializeField] private InteractionPointDefinition definition;
     
     public InteractionPointDefinition Definition => definition;
 
-    public void Initialize(InteractionPointDefinition def)
+    public virtual void Initialize(InteractionPointDefinition def)
     {
         definition = def;
         transform.localPosition = def.localPosition;
     }
+    
+    public abstract void Interact(GameObject interactor);
 }

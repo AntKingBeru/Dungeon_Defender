@@ -1,5 +1,5 @@
 public interface IDoor
 {
     void Open();
-    bool IsOpen {get;}
+    void Close();
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement))]
 [RequireComponent(typeof(PlayerInputHandler))]
+[RequireComponent(typeof(PlayerInteractionDetector))]
 public class PlayerController : MonoBehaviour
 {
     [Header("References")]
@@ -9,16 +10,19 @@ public class PlayerController : MonoBehaviour
     
     private PlayerMovement _movement;
     private PlayerInputHandler _input;
+    private PlayerInteractionDetector _interaction;
     
     private void Awake()
     {
         _movement = GetComponent<PlayerMovement>();
         _input = GetComponent<PlayerInputHandler>();
+        _interaction = GetComponent<PlayerInteractionDetector>();
     }
 
     private void Update()
     {
         HandleMovement();
+        HandleInteraction();
         HandleCamera();
         
         _input.ClearFrameInput();
@@ -29,6 +33,17 @@ public class PlayerController : MonoBehaviour
         if (_input.MovePressed && !_input.RotateHeld)
         {
             _movement.MoveToScreenPoint(_input.MousePosition);
+        }
+    }
+    
+    private void HandleInteraction()
+    {
+        if (!_input.InteractPressed) return;
+
+        var point = _interaction.GetBestInteractionPoint();
+        if (point != null)
+        {
+            point.Interact(gameObject);
         }
     }
 

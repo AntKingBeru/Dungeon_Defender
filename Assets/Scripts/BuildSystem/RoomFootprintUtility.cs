@@ -8,6 +8,12 @@ public static class RoomFootprintUtility
         int rotation
     )
     {
+        if (room.category == RoomCategory.Corridor)
+        {
+            yield return Vector2Int.zero;
+            yield break;
+        }
+        
         var width = room.size.x;
         var height = room.size.y;
 

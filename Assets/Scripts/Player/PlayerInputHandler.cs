@@ -8,6 +8,7 @@ public class PlayerInputHandler : MonoBehaviour
     
     public bool RotateHeld { get; private set; }
     public bool MovePressed { get; private set; }
+    public bool InteractPressed { get; private set; }
     
     #region Input Callbacks
     public void OnPoint(InputAction.CallbackContext context)
@@ -18,6 +19,11 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnClickMove(InputAction.CallbackContext context)
     {
         MovePressed = context.performed;
+    }
+    
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        InteractPressed = context.performed;
     }
 
     public void OnCameraRotateDrag(InputAction.CallbackContext context)
@@ -34,6 +40,7 @@ public class PlayerInputHandler : MonoBehaviour
     public void ClearFrameInput()
     {
         MovePressed = false;
+        InteractPressed = false;
         MouseDelta = Vector2.zero;
     }
 }

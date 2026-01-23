@@ -31,4 +31,12 @@ public class PlayerMovement : MonoBehaviour
             door.Open();
         }
     }
+    
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent<IDoor>(out var door))
+        {
+            door.Close();
+        }
+    }
 }

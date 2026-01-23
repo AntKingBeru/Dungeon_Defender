@@ -16,6 +16,8 @@ public class BuildController : MonoBehaviour
     private BuildPreview _preview;
     private GameObject _previewObject;
     private BuildPreviewVisual _previewVisual;
+    private GridPosition _lastHover;
+    private bool _hasLastHover;
     
     #region Public API
     public void StartPlacing(RoomDefinition room)
@@ -71,8 +73,11 @@ public class BuildController : MonoBehaviour
     private void UpdatePlacement()
     {
         if (_preview == null || _previewObject == null) return;
-
+        
         var gridPosition = GetMouseGridPosition();
+        var dir = GetPlacementDirectionFromMouse(gridPosition);
+        _preview.AutoRotateFromDirection(dir);
+        
         _preview.SetOrigin(gridPosition);
         
         _previewObject.transform.position = gridManager.GridToWorld(gridPosition);
@@ -114,6 +119,9 @@ public class BuildController : MonoBehaviour
         gridManager.OccupyTiles(instance, tiles);
         SpawnInteractionPoints(instance);
         
+        var tileOverride = roomGo.GetComponent<RoomTileOverride>();
+        if (tileOverride != null) tileOverride.Apply();
+        
         CancelBuild();
     }
     #endregion
@@ -128,6 +136,9 @@ public class BuildController : MonoBehaviour
 
         if (room != null)
         {
+            var tileOverride = room.GetComponent<RoomTileOverride>();
+            if (tileOverride != null) tileOverride.Restore();
+            
             gridManager.FreeTiles(room.OccupiedTiles);
             Destroy(room.gameObject);
         }
@@ -149,18 +160,37 @@ public class BuildController : MonoBehaviour
         return default;
     }
 
+    private Vector2Int GetPlacementDirectionFromMouse(GridPosition current)
+    {
+        if (!_hasLastHover)
+        {
+            _lastHover = current;
+            _hasLastHover = true;
+            return Vector2Int.zero;
+        }
+
+        var dx = current.x - _lastHover.x;
+        var dy = current.y - _lastHover.y;
+        
+        if (Mathf.Abs(dx) > Mathf.Abs(dy)) return new Vector2Int(dx > 0 ? 1 : -1, 0);
+        if (Mathf.Abs(dy) > 0) return new Vector2Int(0, dy > 0 ? 1 : -1);
+        return Vector2Int.zero;
+    }
+
     private void SetPreviewVisual(bool valid)
     {
-        _previewObject.SetActive(valid);
+        _previewVisual.SetValidity(valid);
     }
 
     private void SpawnInteractionPoints(RoomInstance room)
     {
-        foreach (var def in room.Definition.InteractionPoints)
+        foreach (var def in room.Definition.interactionPoints)
         {
             var go = new GameObject($"IP_{def.id}"); 
             go.transform.SetParent(room.transform); 
-            go.AddComponent<InteractionPoint>().Initialize(def);
+            
+            var ip = (InteractionPoint)go.AddComponent(def.ComponentType);
+            ip.Initialize(def);
         }
     }
     #endregion
