@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8016db6-74d3-4457-9ee4-4704719fc252" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_tablecloth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_tablecloth.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Corridor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Corridor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Quarry_Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Quarry_Stone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Storage_Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Storage_Room.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Room Prefabs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Room Prefabs.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/ResourceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/ResourceType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/Controllers/RoomQuarryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms/Controllers/RoomQuarryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoints/HarvestInteractionPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoints/HarvestInteractionPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e8016db6-74d3-4457-9ee4-4704719fc252" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,10 +80,10 @@
 }</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1769785220786" />
-    <option name="spentUsd" value="0.0031115" />
+    <option name="spentUsd" value="0.008754" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="9" />
+    <option name="suspendCountdown" value="8" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -149,7 +133,7 @@
       <workItem from="1769038791674" duration="37000" />
       <workItem from="1769083271271" duration="21441000" />
       <workItem from="1769347857855" duration="437000" />
-      <workItem from="1769361239520" duration="1200000" />
+      <workItem from="1769361239520" duration="1800000" />
     </task>
     <servers />
   </component>
