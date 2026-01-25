@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249bd77da85474c49904342216d02a19, type: 3}
   m_Name: RightCorridorRoomDefinition
   m_EditorClassIdentifier: Assembly-CSharp::CorridorRoomDefinition
-  roomId: T Corridor
-  prefab: {fileID: 8500105432446907972, guid: d6b880737112ce543ac65f3f7783785f, type: 3}
+  roomId: Right Corridor
+  prefab: {fileID: 1063453791017430920, guid: 60a217620628c67499bb20c75e8ed771, type: 3}
   size: {x: 1, y: 1}
   offset: {x: 0, y: 0}
   allowedRotation: 1
