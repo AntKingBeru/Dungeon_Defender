@@ -1539,7 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200869d40a4ab9d4e878cc71e4faea81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HarvestInteractionPoint
-  definition: {fileID: 0}
+  definition: {fileID: 11400000, guid: afef504ef17ce2148bed1a5cf277a9ce, type: 2}
   quarry: {fileID: 9110314026698222840}
 --- !u!1001 &40041229638162763
 PrefabInstance:
