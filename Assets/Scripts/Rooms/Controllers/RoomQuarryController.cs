@@ -7,9 +7,14 @@ public class RoomQuarryController : MonoBehaviour
     
     private int _upgradeLevel = 0;
 
-    public int GetStoneAmount()
+    public int GetResourceAmount()
     {
-        return definition.baseStoneAmount + (_upgradeLevel * definition.upgradeStoneBonus);
+        return definition.baseResourceAmount + (_upgradeLevel * definition.upgradeResourceBonus);
+    }
+
+    public ResourceType GetResourceType()
+    {
+        return definition.resourceType;
     }
 
     public float GetCooldown()

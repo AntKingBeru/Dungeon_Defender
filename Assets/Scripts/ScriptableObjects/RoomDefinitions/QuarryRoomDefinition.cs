@@ -4,7 +4,8 @@ using UnityEngine;
 public class QuarryRoomDefinition : RoomDefinition
 {
     [Header("Quarry Data")]
-    public int baseStoneAmount;
+    public int baseResourceAmount;
     public float harvestCooldown;
-    public int upgradeStoneBonus;
+    public int upgradeResourceBonus;
+    public ResourceType resourceType;
 }

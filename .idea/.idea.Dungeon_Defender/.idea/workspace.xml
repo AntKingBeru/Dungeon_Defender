@@ -6,22 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e8016db6-74d3-4457-9ee4-4704719fc252" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon_Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/ArcherController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/ArcherController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/ArcherController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/ArcherController.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/FightController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/FightController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/MageController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/MageController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/MageController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/MageController.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Archer Animations/Prefabs/HumanM_Archer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Archer Animations/Prefabs/HumanM_Archer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Archer Animations/Scripts/HumanArcherController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Archer Animations/Scripts/HumanArcherController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Rooms_Parts/Core.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Rooms_Parts/Core.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/floor_tile_large.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_tablecloth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KayKit/Packs/KayKit - Dungeon Remastered Pack (for Unity)/Prefabs/table_long_tablecloth.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Corridor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Corridor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Main_Room.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Quarry_Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Quarry_Stone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene/NavMesh-Player_Surface.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Storage_Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/Storage_Room.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Room Prefabs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Room Prefabs.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/ResourceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/ResourceType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/Controllers/RoomQuarryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms/Controllers/RoomQuarryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoints/HarvestInteractionPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms/InteractionPoints/HarvestInteractionPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RoomDefinitions/QuarryRoomDefinition.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="4" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -150,6 +149,7 @@
       <workItem from="1769038791674" duration="37000" />
       <workItem from="1769083271271" duration="21441000" />
       <workItem from="1769347857855" duration="437000" />
+      <workItem from="1769361239520" duration="1200000" />
     </task>
     <servers />
   </component>

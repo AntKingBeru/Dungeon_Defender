@@ -30,7 +30,14 @@ public class PlayerInventory
     
     public void AddResource(ResourceType type, int amount)
     {
-        _resources[type] += amount;
+        if (!_resources.ContainsKey(type))
+        {
+            _resources.Add(type, amount);
+        }
+        else
+        {
+            _resources[type] += amount;
+        }
         OnResourceChanged?.Invoke(type, _resources[type]);
     }
 

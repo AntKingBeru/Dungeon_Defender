@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections;
 
@@ -5,12 +6,14 @@ using System.Collections;
 public class HarvestInteractionPoint : InteractionPoint
 {
     [SerializeField] private RoomQuarryController quarry;
-    
+
+    private ResourceType _resourceType;
     private bool _onCooldown;
 
     private void Awake()
     {
         GetComponent<Collider>().isTrigger = true;
+        _resourceType = quarry.GetResourceType();
     }
 
     public override void Interact(GameObject interactor)
@@ -19,9 +22,25 @@ public class HarvestInteractionPoint : InteractionPoint
         
         if (!interactor.CompareTag("Player")) return;
 
-        var stone = quarry.GetStoneAmount();
-        
-        PlayerInventory.Instance.AddResource(ResourceType.Stone, stone);
+        var resource = quarry.GetResourceAmount();
+
+        switch (_resourceType)
+        {
+            case ResourceType.Stone:
+                PlayerInventory.Instance.AddResource(ResourceType.Stone, resource);
+                break;
+            case ResourceType.Wood:
+                PlayerInventory.Instance.AddResource(ResourceType.Wood, resource);
+                break;
+            case ResourceType.Iron:
+                PlayerInventory.Instance.AddResource(ResourceType.Iron, resource);
+                break;
+            case ResourceType.Eggs:
+                PlayerInventory.Instance.AddResource(ResourceType.Eggs, resource);
+                break;
+            default:
+                break;
+        }
         
         StartCoroutine(Cooldown());
     }
