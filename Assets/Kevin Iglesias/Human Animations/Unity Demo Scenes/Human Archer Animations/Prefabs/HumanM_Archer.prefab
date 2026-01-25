@@ -1412,7 +1412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   archerAnimator: {fileID: 3155559284503195004}
-  animationToPlay: 0
   bowstringLine: {fileID: 3656397774210533588}
   limb01: {fileID: 2995345857763215607}
   limb02: {fileID: 3231581151886743325}

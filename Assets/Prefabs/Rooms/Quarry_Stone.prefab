@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomQuarryController
   definition: {fileID: 11400000, guid: e6feff58453be684c8042483aa57befb, type: 2}
-  harvestPoint: {fileID: 0}
+  harvestPoint: {fileID: 9164552879023936639}
 --- !u!1 &3171121552947780170
 GameObject:
   m_ObjectHideFlags: 0
