@@ -3,25 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Enemy
-  - Monster
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - MinimapIcons
+  - 
   - Water
   - UI
-  - Main_Room
-  - HarvestRoom
-  - Room
-  - Corridor
-  - Terrain
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - Wall
+  - Ceiling
+  - Door
+  - Interactable
+  - Decoration
+  - GhostRoom
+  - Trap
+  - Minimap
   - 
   - 
   - 
